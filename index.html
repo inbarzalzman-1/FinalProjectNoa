@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            placeholder="Search for a city"
+            autocomplete="off"
+            autofocus="on"
+            id="city-input"
+            class="form-control shadow-sm"
+          />
+          <input type="submit" value="Search" />
+        </form>
+      </h1>
+      <h2 id="city">
+        Paris
+      </h2>
+      <div class="row" id="row1">
+        <div class="col-sm-3" id="date">
+          <b> </b><br />
+          Rain
+        </div>
+        <div class="col-sm-3" id="tem">
+          ☔10°c
+        </div>
+        <div class="col-sm-3" id="humidity">Humidity:</div>
+        <div class="col-sm-3" id="wind">Wind:</div>
+      </div>
+      <div class="row" id="row2">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1">Sun<br />🌩️<br />12°c</div>
+        <div class="col-sm-1">Mon<br />🌧️<br />7°c</div>
+        <div class="col-sm-1">Tue<br />☁️<br />20°c</div>
+        <div class="col-sm-1">Wed<br />☁️<br />22°c</div>
+        <div class="col-sm-1">Thu<br />☀️<br />26°c</div>
+      </div>
+    </div>
+    <script src="index.js"></script>  
+  </body>
+  </html>

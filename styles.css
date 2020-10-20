@@ -1,0 +1,42 @@
+h1 {
+  width: 100%;
+  padding: 40px 20px;
+  margin: 10px 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  display: block;
+}
+
+input[type="text"] {
+  border-color: #3a9de0;
+  border-radius: 6px;
+  width: 8cm;
+}
+
+h2 {
+  font: size 24px;
+  text-align: center;
+  color: #42a5f5;
+  margin-top: -1cm;
+}
+
+#row1 {
+  color: #939aa9;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 18%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tem {
+  font-size: 45px;
+}
+
+#row2 {
+  text-align: center;
+  color: #939aa9;
+  font-size: 18px;
+  margin-top: 0.7cm;
+  margin-left: 29%;
+}
